@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.menu {
+    display: flex;
+    font-size: 2rem;
+    width: 100%;
+    
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 1rem;
+    width: 100%;
+}
+
+.main-menu ul {
+    display: flex;
+}
+
+.main-menu a {
+    margin-left: 3rem;
+}
