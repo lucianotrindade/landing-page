@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 
 :root {
     --color-whidt: white;
     --color-text: rgb(36, 36, 231);
+    --Font-logo: 'Fuggles', cursive;
     
 }
 
@@ -35,6 +36,11 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 2rem;    
+}
+
+h1 {
+    font-family: var(--Font-logo);
+    font-size: 4rem;
 }
 
 .main-menu ul {
