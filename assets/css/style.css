@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Fuggles&display=swap');
 
 :root {
     --color-whidt: white;
     --color-text: rgb(36, 36, 231);
     --Font-logo: 'Fuggles', cursive;
+    --font-home: 'Frank Ruhl Libre', serif;
     
 }
 
@@ -54,7 +56,7 @@ h1 {
 /*------------------------------------------------------------------------------------*/
 
 .home {
-    background-image: url("../img/img-fundo-02.svg");
+    background-image: url("../img/img-fundo-03.svg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -75,8 +77,14 @@ h1 {
     display: block;
 }
 
+.text-home h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
 .text-home p {
     font-size: 2.5rem;
+    font-family: var(--font-home);
 }
 
 .img-home {
