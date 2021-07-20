@@ -40,7 +40,7 @@ html {
 
 h1 {
     font-family: var(--Font-logo);
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .main-menu ul {
@@ -54,12 +54,42 @@ h1 {
 /*------------------------------------------------------------------------------------*/
 
 .home {
-    background-image: url("../img/img-fundo.svg");
+    background-image: url("../img/img-fundo-02.svg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
     
 }
+
+.home-container {
+    display: grid;
+   justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 25%);
+    column-gap: .5rem;
+}
+
+.text-home {
+    grid-column: 1 / 2;
+    height: 60vh;
+    display: block;
+}
+
+.text-home p {
+    font-size: 2.5rem;
+}
+
+.img-home {
+    grid-column: 2 / 3;
+    height: 60vh;
+    background-image: url("../img/imagem-maquiagem-home.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 1rem;
+    
+}
+
+
 
 .produto {
     height: 100vh;
