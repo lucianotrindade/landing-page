@@ -1,3 +1,11 @@
+
+
+:root {
+    --color-whidt: white;
+    --color-text: rgb(36, 36, 231);
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,20 +18,23 @@ html {
     font-size: 62.5%;
 }
 
+
+
 .menu {
-    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     font-size: 2rem;
-    width: 100%;
-    
+    background-color: var(--color-whidt);
+    color: var(--color-text);
 }
 
 .main-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    padding: 1rem;
-    width: 100%;
+    padding: 2rem;    
 }
 
 .main-menu ul {
@@ -32,4 +43,18 @@ html {
 
 .main-menu a {
     margin-left: 3rem;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+.home {
+    background-image: url("../img/img-fundo.svg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+}
+
+.produto {
+    height: 100vh;
 }
