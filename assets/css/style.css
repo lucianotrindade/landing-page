@@ -52,6 +52,9 @@ h1 {
 .main-menu a {
     margin-left: 3rem;
 }
+.space-menu {
+    height: 7.7rem;
+}
 
 /*------------------------------------------------------------------------------------*/
 
@@ -93,9 +96,7 @@ h1 {
     background-image: url("../img/img-fundo-04.png");
     background-size: cover;
     background-position: center center;
-    border-radius: 1rem;
-    border-radius: 1rem;
-    
+    border-radius: 1rem;    
 }
 
 
