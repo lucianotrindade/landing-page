@@ -90,9 +90,10 @@ h1 {
 .img-home {
     grid-column: 2 / 3;
     height: 60vh;
-    background-image: url("../img/imagem-maquiagem-home.jpg");
+    background-image: url("../img/img-fundo-04.png");
     background-size: cover;
     background-position: center center;
+    border-radius: 1rem;
     border-radius: 1rem;
     
 }
