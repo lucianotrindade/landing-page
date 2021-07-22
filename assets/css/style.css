@@ -80,7 +80,7 @@ h1 {
 
 .text-home {
     grid-column: 1 / 2;
-    height: 60vh;
+    height: 50vh;
     display: block;
     margin-top: -9rem;
 }
@@ -98,16 +98,30 @@ h1 {
     color: black;
 }
 
-
-
 .fa-star {
     font-size: 3rem;
-    
 }
+
+.link-produto {
+    position: relative;
+    background: #7263FF;
+    width: 25rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.link-produto:hover {
+    background: #6050f0;
+}
+
+
 
 .img-home {
     grid-column: 2 / 3;
-    height: 70vh;
+    height: 65vh;
     background-image: url("../img/img-make.svg");
     background-size: cover;
     background-position: center center;
