@@ -74,7 +74,7 @@ h1 {
     align-items: center;
     grid-template-columns: 40% 25%;
     column-gap: .5rem;
-    margin-top: -1rem;
+    margin-top: -9rem;
 }
 
 .text-home {
