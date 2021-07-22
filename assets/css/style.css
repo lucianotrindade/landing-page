@@ -74,13 +74,14 @@ h1 {
     align-items: center;
     grid-template-columns: 40% 25%;
     column-gap: .5rem;
-    margin-top: -9rem;
+   
 }
 
 .text-home {
     grid-column: 1 / 2;
     height: 60vh;
     display: block;
+    margin-top: -9rem;
 }
 
 .text-home h1 {
@@ -98,13 +99,18 @@ h1 {
     text-transform: uppercase;
 }
 
+.fa-star {
+    font-size: 3rem;
+    
+}
+
 .img-home {
     grid-column: 2 / 3;
     height: 60vh;
     background-image: url("../img/img-make.svg");
     background-size: cover;
     background-position: center center;
-    max-width: 100%;
+    margin-top: -9rem;
        
 }
 
