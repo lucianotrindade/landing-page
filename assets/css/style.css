@@ -60,11 +60,11 @@ h1 {
 /*------------------------------------------------------------------------------------*/
 
 .home {
-    background-image: url("../img/img-fundo-03.svg");
+    background-image: url("../img/img-fundo-01.svg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
-    
+ 
 }
 
 .home-container {
@@ -94,10 +94,11 @@ h1 {
 .img-home {
     grid-column: 2 / 3;
     height: 60vh;
-    background-image: url("../img/img-fundo-04.png");
+    background-image: url("../img/img-make.svg");
     background-size: cover;
     background-position: center center;
-    border-radius: 10rem 5rem 15rem 10rem;    
+    max-width: 100%;
+       
 }
 
 
