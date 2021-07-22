@@ -73,7 +73,7 @@ h1 {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 40% 25%;
+    grid-template-columns: 40% 35%;
     column-gap: .5rem;
    
 }
@@ -86,19 +86,19 @@ h1 {
 }
 
 .text-home h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    
 }
 
 .text-home p {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: var(--font-home);
+    color: black;
 }
 
-.text-home h1 {
-    font-size: 5rem;
-    text-transform: uppercase;
-}
+
 
 .fa-star {
     font-size: 3rem;
@@ -107,7 +107,7 @@ h1 {
 
 .img-home {
     grid-column: 2 / 3;
-    height: 60vh;
+    height: 70vh;
     background-image: url("../img/img-make.svg");
     background-size: cover;
     background-position: center center;
