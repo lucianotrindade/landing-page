@@ -85,7 +85,7 @@ h1 {
     grid-column: 1 / 2;
     height: 50vh;
     display: block;
-    margin-top: -9rem;
+   
 }
 
 .text-home h2 {
@@ -97,8 +97,8 @@ h1 {
 }
 
 .text-home p {
-    font-size: 2.3rem;
-    font-family: var(--font-home);
+    font-size: 2.7rem;
+    font-family: var(--Font-logo);
     color: var(--color-white);
 }
 
@@ -130,10 +130,18 @@ h1 {
     background-image: url("../img/img-make.svg");
     background-size: cover;
     background-position: center center;
-    margin-top: -9rem;
+   
        
 }
 
+.visao {
+    height: 100vh;
+    border: 1px solid;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
 .produto {
     height: 100vh;
+    width: 100%;
 }
