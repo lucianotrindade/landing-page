@@ -146,16 +146,20 @@ h1 {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(4, 18%);
-    grid-template-rows: 20vh 50vh 50vh ;
-    gap: 1rem;
+    grid-template-rows: 10% 43% 43% ;
+    height: 100vh;
+    gap: .5rem;
+    background: red;
 }
 
 .topo-produto {
     grid-area: 1 / 1 / 1 / 5;
     margin-top: 1rem;
-    background: var(--color-img);
-    font-size: 5rem;
-    color: red;
+    font-family: var(--Font-logo);
+}
+
+.topo-produto h3 {
+    font-size: 3.5rem;
 }
 
 .img1 {
@@ -163,7 +167,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     background: var(--color-img);
    
 }
@@ -172,7 +176,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     background: var(--color-img);
 }
 .img3 {
@@ -180,7 +184,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     background: var(--color-img);
 }
 .img4 {
@@ -188,7 +192,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     background: var(--color-img);
 }
 .img5 {
@@ -196,7 +200,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     background: var(--color-img);
 }
 .img6 {
@@ -204,7 +208,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     background: var(--color-img);
 }
 .img7 {
@@ -212,7 +216,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     background: var(--color-img);
 }
 .img8 {
@@ -220,8 +224,9 @@ h1 {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     background: var(--color-img);
+    
 }
 
 .produto img {
@@ -244,4 +249,10 @@ h1 {
 .produto p {
     font-size: 2rem;
     margin-top: 1.7rem;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+.rolagem {
+    height: 100vh;
 }
