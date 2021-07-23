@@ -271,5 +271,8 @@ h1 {
 /*---------------------------------------------------------------------------------------------*/
 
 .rolagem {
+    background-image: url("../img/img-fundo-03.svg");
+    background-size: cover;
+    background-position: center center;
     height: 100vh;
 }
