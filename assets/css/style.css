@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Fuggles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 :root {
     --color-white: white;
     --color-text: rgb(97, 18, 129);
-    --Font-logo: 'Zen Loop', cursive;
+    --Font-logo: 'Poiret One', cursive;
     --font-home: 'Frank Ruhl Libre', serif;
     
 }
