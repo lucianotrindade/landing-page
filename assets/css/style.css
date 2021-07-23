@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap');
 
 :root {
-    --color-whidt: white;
-    --color-text: rgb(107, 12, 144);
+    --color-white: white;
+    --color-text: rgb(97, 18, 129);
     --Font-logo: 'Zen Loop', cursive;
     --font-home: 'Frank Ruhl Libre', serif;
     
@@ -31,7 +31,7 @@ html {
     left: 0;
     right: 0;
     font-size: 1.7rem;
-    background-color: var(--color-whidt);
+    background-color: var(--color-white);
     color: var(--color-text);
     border-bottom: .5rem solid rgb(230, 230, 230);
 
@@ -90,14 +90,14 @@ h1 {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
-    color: var(--color-whidt);
+    color: var(--color-white);
     
 }
 
 .text-home p {
     font-size: 2.3rem;
     font-family: var(--font-home);
-    color: var(--color-whidt);
+    color: var(--color-white);
 }
 
 .fa-star {
