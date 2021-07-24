@@ -148,8 +148,8 @@ h1 {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(4, 16%);
-    grid-template-rows: 10% 43% 43% ;
-    height: 100vh;
+    grid-template-rows: 10vh 55vh 55vh ;
+    height: 130vh;
     gap: 1rem;
 }
 
@@ -262,7 +262,8 @@ h1 {
 
 
 .produto h2 {
-    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.8rem;
     color: rgb(82, 82, 82);
    
 }
@@ -276,5 +277,8 @@ h1 {
 /*---------------------------------------------------------------------------------------------*/
 
 .container-produtos-2 {
-     height: 100vh;
+    background-image: url("../img/img-fundo-03.svg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
 }
