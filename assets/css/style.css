@@ -9,7 +9,7 @@
     --color-text: rgb(97, 18, 129);
     --Font-logo: 'Poiret One', cursive;
     --font-home: 'Frank Ruhl Libre', serif;
-    --font-valor:'PT Serif', serif;
+    --font-valor: 'PT Serif', serif;
     --color-img: rgb(250, 243, 243);
     
 }
@@ -240,45 +240,45 @@ h1 {
     text-align: center;
     width: 100%;
     height: 100%;
-    border: .1rem solid var(--color-text);
-    border-radius: 1rem 6rem 0 2rem;
-}
+        border: .1rem solid var(--color-text);
+        border-radius: 1rem 6rem 0rem 2rem;
+    }
 
-.produto img {
-    width: 80%;
-    padding: 1rem;
-}
+    .produto img {
+        width: 80%;
+        padding: 1rem;
+    }
 
 
-.produto img:hover {
-   width: 78%;
+    .produto img:hover {
+    width: 78%;
+        
+    }
+
+    .topo-produto {
+        font-size: 3rem;
+    }
+
+
+
+    .produto h2 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        color: rgb(82, 82, 82);
     
-}
+    }
 
-.topo-produto {
-    font-size: 3rem;
-}
+    .produto p {
+        font-size: 2.5rem;
+        font-family: var(--font-valor);
+        margin-top: 1.7rem;
+    }
 
+    /*---------------------------------------------------------------------------------------------*/
 
-
-.produto h2 {
-    margin-top: 2rem;
-    font-size: 1.8rem;
-    color: rgb(82, 82, 82);
-   
-}
-
-.produto p {
-    font-size: 2.5rem;
-    font-family: var(--font-valor);
-    margin-top: 1.7rem;
-}
-
-/*---------------------------------------------------------------------------------------------*/
-
-.container-produtos-2 {
-    background-image: url("../img/img-fundo-03.svg");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-}
+    .container-produtos-2 {
+        background-image: url("../img/img-fundo-03.svg");
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+    }
