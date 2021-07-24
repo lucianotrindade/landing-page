@@ -245,8 +245,13 @@ h1 {
 }
 
 .produto img {
-    width: 70%;
+    width: 80%;
     padding: 1rem;
+}
+
+
+.produto img:hover {
+   width: 78%;
     
 }
 
@@ -270,9 +275,6 @@ h1 {
 
 /*---------------------------------------------------------------------------------------------*/
 
-.rolagem {
-    background-image: url("../img/img-fundo-03.svg");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
+.container-produtos-2 {
+     height: 100vh;
 }
