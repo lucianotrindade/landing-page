@@ -118,10 +118,13 @@ h1 {
     font-size: 1.5rem;
     border-radius: 2rem;
     color: var(--color-white);
+    border: 1px solid;
 }
 
 .link-produto:hover {
     background: #6050f0;
+    
+    
 }
 
 
