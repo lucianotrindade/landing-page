@@ -71,7 +71,7 @@ h1 {
 /*------------------------------------------------------------------------------------*/
 
 .home {
-    background: linear-gradient(#ff7BDE, #9C7BFF) ;
+    background-color: #CA5DFF;
     height: 100vh;
  
 }
@@ -150,7 +150,7 @@ h1 {
     grid-template-rows: 10vh 55vh 55vh ;
     height: 130vh;
     gap: 1rem;
-    background-color: #9C7BFF;
+    background-color: #CA5DFF;
     border-top: .1rem solid var(--color-white);
 }
 
