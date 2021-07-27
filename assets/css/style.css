@@ -101,7 +101,7 @@ h1 {
 .text-home p {
     font-size: 2.7rem;
     font-family: var(--Font-logo);
-    color: var(#FF9C7B);
+    color: var(--color-white);
 }
 
 .fa-star {
