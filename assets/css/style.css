@@ -147,7 +147,8 @@ h1 {
     grid-template-rows: 10vh 55vh 55vh ;
     height: 130vh;
     gap: 1rem;
-    background-color: #e65cbc;
+    background-color: #9C7BFF;
+    border-top: .1rem solid var(--color-white);
 }
 
 .topo-produto {
