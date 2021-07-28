@@ -195,7 +195,7 @@ h1 {
     border: .1rem solid var(--color-white);
     border-radius: 1rem;
     background-color: rgb(255, 255, 255);
-    height: 38rem;
+    height: 40rem;
 }
 
 .img3 {
@@ -217,7 +217,7 @@ h1 {
     border: .1rem solid var(--color-white);
     border-radius: 1rem;
     background-color: rgb(255, 255, 255);
-    height: 37rem;
+    height: 40rem;
 }
 
 .img5 {
@@ -289,6 +289,30 @@ h1 {
         font-size: 2.5rem;
         font-family: var(--font-valor);
         margin-top: 1.7rem;
+    }
+    
+/*link para compra dos produtos mais vendidos*/
+    .link-compra-mais-vendido {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        min-height: 3rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        background: #7263FF;
+        
+    }
+
+    .link-compra-mais-vendido a {
+        font-size: 1.7rem;
+        color: var(--color-white);
+        font-family: var(--font-valor);
+    }
+
+    .link-compra-mais-vendido:hover {
+        background: #6050f0;
     }
 
     /*---------------------------------------------------------------------------------------------*/
