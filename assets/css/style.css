@@ -118,6 +118,7 @@ h1 {
     border-radius: 2rem;
     color: var(--color-white);
     border: 1px solid;
+    box-shadow: .1rem .4rem .5rem  rgb(100, 99, 99);
 }
 
 .link-produto:hover {
