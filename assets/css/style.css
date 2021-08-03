@@ -308,33 +308,8 @@ h1 {
         margin-top: 4rem;
     }
 
-    .menu-produtos {
-        grid-area: 1 / 1 / 2 / 1;
-        display: flex;
-        flex-direction: column;
-        border: 1px solid;
-        min-height: 100%;
-        background: rgb(216, 211, 211);
-    }
-    .categoria{
-        margin-left: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 1.7rem;
-        font-size: 2.3rem;
-        
-    }
-
-    .menu-produtos li {
-        margin-top: .1rem;
-        font-size: 2rem;
-        padding: .5rem;
-
-    }
-
- 
-
     .img1-selecao {
-        grid-area: 1 / 2 / 2 / 3;
+        grid-area: 1 / 1 / 2 / 2;
         align-items: center;
         text-align: center;
         width: 100%;
@@ -344,7 +319,7 @@ h1 {
         height: 45rem;
     }
     .img2-selecao {
-        grid-area: 1 / 3 / 2 / 4;
+        grid-area: 1 / 2 / 2 / 3;
         align-items: center;
         text-align: center;
         width: 100%;
@@ -354,7 +329,7 @@ h1 {
         height: 45rem;
     }
     .img3-selecao {
-        grid-area: 1 / 4 / 2 / 5;
+        grid-area: 1 / 3 / 2 / 4;
         align-items: center;
         text-align: center;
         width: 100%;
@@ -364,7 +339,7 @@ h1 {
         height: 45rem;
     }
     .img4-selecao {
-        grid-area: 2 / 2 / 3 / 3;
+        grid-area: 1 / 4 / 2 / 5;
         align-items: center;
         text-align: center;
         width: 100%;
@@ -374,7 +349,7 @@ h1 {
         height: 45rem;
     }
     .img5-selecao {
-        grid-area: 2 / 3 / 2 / 4;
+        grid-area: 2 / 2 / 3 / 3;
         align-items: center;
         text-align: center;
         width: 100%;
@@ -384,7 +359,7 @@ h1 {
         height: 45rem;
     }
     .img6-selecao {
-        grid-area: 2 / 4 / 2 / 5;
+        grid-area: 2 / 3 / 3 / 4;
         align-items: center;
         text-align: center;
         width: 100%;
