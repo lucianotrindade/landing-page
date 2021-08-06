@@ -109,8 +109,9 @@ h1 {
 
 .text-home a {
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
-    width: 40%;
+    width: 30rem;
     margin-top: 4rem;
     background: #7263FF;
     padding: .7rem;
@@ -442,7 +443,7 @@ h1 {
 /*--------------------------------------------------------------------------------------------*/
 /*Responsivo*/
 
-@media (max-width: 910px) {
+@media (max-width: 360px) {
     .home-container {
         display: block;
         height: 130vh;       
