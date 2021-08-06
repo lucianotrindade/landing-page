@@ -110,7 +110,7 @@ h1 {
 .text-home a {
     display: flex;
     justify-content: center;
-    max-width: 40%;
+    width: 40%;
     margin-top: 4rem;
     background: #7263FF;
     padding: .7rem;
@@ -439,4 +439,34 @@ h1 {
     background-color: #7e39a0;
 }
 
+/*--------------------------------------------------------------------------------------------*/
+/*Responsivo*/
 
+@media (max-width: 360px) {
+    .home-container {
+        display: block;
+        height: 130vh;       
+        width: 100%;
+        padding: 0px;
+        
+    }
+    .home {
+        width: 100%;
+    }
+
+    .text-home  {
+        width: 100%;
+      
+    }
+    .text-home p {
+        font-size: 2.5em;
+    }
+
+    .home a {
+        width: 70%;
+    }
+
+    .home .img-home {
+        margin-top: 3rem;
+    }
+}
