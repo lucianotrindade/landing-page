@@ -443,7 +443,7 @@ h1 {
 /*--------------------------------------------------------------------------------------------*/
 /*Responsivo*/
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
       
     .home-container {
         display: block;
