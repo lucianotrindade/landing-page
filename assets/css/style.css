@@ -146,7 +146,7 @@ h1 {
 .container-produtos {
     background-color: #CA5DFF;
     border-top: .1rem solid var(--color-white);
-    height: 300vh;
+    height: 280vh;
 
 }
 
@@ -389,3 +389,54 @@ h1 {
         background-position: center center;
         height: 100vh;
     }
+
+/*------------------------------------------------------------------------- ------------------*/
+
+.radape-cadastro {
+    background-color: #7263FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    height: 15rem;
+}
+
+.info-cadastro {
+    color: var(--color-white);
+    font-family: var(--Font-logo);
+    font-size: 2rem;
+}
+
+.info-cadastro h2 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.form-cadastro input {
+    width: 25rem;
+    height: 3rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    padding: 1rem;
+}
+
+.form-cadastro button {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    margin-left: .9rem;
+    cursor: pointer;
+    background-color: #c076e6;
+    color: var(--color-white);
+    outline: none;
+}
+
+.form-cadastro button:hover {
+    background-color: #7e39a0;
+}
+
+
