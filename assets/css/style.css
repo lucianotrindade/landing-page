@@ -147,7 +147,7 @@ h1 {
 .container-produtos {
     background-color: #CA5DFF;
     border-top: .1rem solid var(--color-white);
-    height: 220vh;
+    height: 100vh;
 
 }
 
@@ -299,15 +299,20 @@ h1 {
     }
 
     /*---------------------------------------------------------------------------------------------*/
+
+ .selecao-produtos {
+     height: 120vh;
+     background-color: #CA5DFF;;
+ }
+ 
     .container-selecao-produtos {
         display: grid;
         justify-content: center;
         align-items: center;
         grid-template-columns: repeat(4, 18%);
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 50% 50%;
         gap: .5rem;
-        margin-top: 4rem;
-        height: 100vh;
+      
     }
 
     .img1-selecao {
@@ -384,14 +389,6 @@ h1 {
     }
 
 
-
-    .container-produtos-2 {
-        background-image: url("../img/img-fundo-03.svg");
-        background-size: cover;
-        background-position: center center;
-        height: 100vh;
-    }
-
 /*------------------------------------------------------------------------- ------------------*/
 
 .radape-cadastro {
@@ -400,7 +397,8 @@ h1 {
     justify-content: space-around;
     align-items: center;
     margin-top: 3rem;
-    height: 15rem;
+    height: 30vh;
+
 }
 
 .info-cadastro {
