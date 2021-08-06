@@ -442,7 +442,7 @@ h1 {
 /*--------------------------------------------------------------------------------------------*/
 /*Responsivo*/
 
-@media (max-width: 360px) {
+@media (max-width: 910px) {
     .home-container {
         display: block;
         height: 130vh;       
