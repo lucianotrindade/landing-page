@@ -444,6 +444,11 @@ h1 {
 /*Responsivo*/
 
 @media (max-width: 360px) {
+   .space-menu {
+       height: 0px;
+       width: 0px;
+   }
+   
     .home-container {
         display: block;
         height: 130vh;       
