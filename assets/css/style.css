@@ -444,10 +444,10 @@ h1 {
 /*Responsivo*/
 
 @media (max-width: 360px) {
-    
+      
     .home-container {
         display: block;
-        height: 130vh;       
+        height: 200vh;       
         width: 100%;
         padding: 0px;
         margin-top: 0px;
@@ -466,10 +466,29 @@ h1 {
     }
 
     .home a {
-        width: 70%;
+        width: 90%;
     }
 
     .home .img-home {
         margin-top: 3rem;
+    }
+    .container-produtos {
+        height: 1200VH;
+    }
+
+    .produto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        height: 500vh;
+    }
+
+
+    .container-selecao-produtos      {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
     }
 }
