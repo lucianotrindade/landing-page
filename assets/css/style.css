@@ -291,7 +291,7 @@ h1 {
 .selecao-produtos {
      height: 150vh;
      background-color: #CA5DFF;
-     border-top: .1rem solid;
+     border-top: .1rem solid var(--color-white);
      margin-top: -4rem;
  }
  
